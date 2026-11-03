@@ -48,4 +48,19 @@ public class Messages {
     public static void interestGoodbye() {
         displayMessage("Thank you for using Noah's Interest Calculator.");
     }
+  
+    /**
+     * Displays instructions for using the GPA calculator.
+     */
+    public static void GPAGreet() {
+        displayMessage("Welcome to Masean's GPA Calculator");
+        System.out.println("When prompted, carefully read the question and enter the requested information.\n");
+    }
+
+    /**
+     * Displays the GPA calculator's farewell message.
+     */
+    public static void GPAGoodbye() {
+        displayMessage("Thank you for using the GPA Calculator");
+    }
 }
